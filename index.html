@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+      <head>
+        <title>Welcome</title>
+      <style>
+        .main-container{
+            text-align: center;
+            margin: 20px 350px 20px 350px;
+        }
+        .div-1{
+           text-align: left;
+           padding-bottom: 5px;
+        }
+          
+        
+        .div-3 label{
+            display: block;
+            
+        }
+        .div-3 input{
+            border-radius: 5px;
+            border: 1px solid red;
+            padding: 9px 35px 9px 27px ;
+        }
+        
+         .div-2{
+            margin-top: 40px;
+            margin-bottom: 40px;
+         }
+         .title{
+            color: red;
+         }
+         .div-4{
+            display: inline;
+            
+         }
+         .div-5 input{
+            padding: 9px 185px 9px 0px;
+            border-radius: 5px;
+            background-color: cyan;
+            border: none;
+           
+            
+            }
+            .div-5 input{
+                padding-left: 8px;
+            }
+            
+         .password{
+            color: cyan;
+            text-decoration: underline;
+            font-weight: 900;
+
+         }
+
+      </style>
+      </head>
+   <body>
+        <div class="main-container">
+            <div class="div-1">
+            <div class="div-2">
+                <h1 style="margin-bottom: 0.5px;">Welcome back</h1>
+               <p>please enter your details</p>
+            </div>
+           <form action="/submit" method="post">
+                 <div class="div-3">
+                    <label>Email address </label>
+                    <input type="email"required ><br>
+                    <label class="title">Please enter a valid email address</label><br><br>
+                
+                    <label>Password</label>
+                    <input type="password" required><br>
+                    <label class="title"> password must contain only numbers</label><br><br>
+                    
+                </div>
+                <div class="div-4">
+                   <input type="checkbox" style="margin-left: 0px;">
+                   <label style="padding-right: 35px; padding-left: 1px;">Remember for 30 days </label>
+    
+                  <label class="password">forgot password</label><br><br>
+                </div>
+    
+                <div class="div-5">
+                   <input type="submit"  value="Sign in" style="text-align: center;">
+               </div>
+           
+            </form>
+          
+
+
+        </div>
+       
+            
+            </div>
+    </body>
+</html>
